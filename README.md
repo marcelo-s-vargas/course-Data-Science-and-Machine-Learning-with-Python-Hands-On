@@ -27,3 +27,25 @@ Notes:
     * **Relationship Assessment:** Covariance measures both the strength and direction of the linear relationship between variables, similar to correlation. However, correlation focuses specifically on the strength and direction of the linear relationship and is particularly useful for detecting and quantifying linear associations. Covariance, being more general, can also capture nonlinear relationships between variables.
     * **Interpretation:** Correlation has a clear interpretation. A correlation coefficient of +1 indicates a perfect positive linear relationship, -1 indicates a perfect negative linear relationship, and 0 indicates no linear relationship. Covariance lacks a standard interpretation since its value depends on the scales and units of the variables.
     * **In summary**, correlation provides a standardized measure of the linear relationship between variables, making it easier to interpret and compare. Covariance, while capturing both linear and nonlinear relationships, lacks standardization and may be less interpretable without considering the specific scales and units of the variables.
+
+
+* **Bayes' theorem** is a fundamental concept in probability theory and statistics. It describes how to update our beliefs or probabilities about an event based on new evidence or information.
+    * Bayes' theorem is expressed as follows:
+        * P(A|B) = (P(B|A) * P(A)) / P(B)
+        * where:
+        * P(A|B) is the conditional probability of A given B, which means the probability of A occurring given that B has occurred.
+        * P(B|A) is the conditional probability of B given A, which means the probability of B occurring given that A has occurred.
+        * P(A) is the probability of A occurring.
+        * P(B) is the probability of B occurring.
+        * In other words, Bayes' theorem allows us to calculate the probability of an event A occurring, taking into account evidence B. It relates the conditional probability of A given B to the conditional probability of B given A, along with the marginal probabilities of A and B.
+    * Bayes' theorem is particularly useful when we want to update our prior probabilities or beliefs based on new information. It provides a formal framework for probability updating, incorporating both prior probabilities and observed evidence.
+    * Bayes' theorem is widely applied in various fields such as statistics, machine learning, artificial intelligence, and data analysis. It is used in classification problems, spam filtering, medical diagnosis, pattern recognition, and much more. It plays a crucial role in statistical inference, enabling the updating of estimates based on new data.
+
+* **Multiple Regression**
+    * If you also have multiple dependent variables – things you’re trying to predict – that’s “multivariate regression”
+
+
+* **Multi-Level Models**
+    *  The concept is that some effects happen at various levels.
+        * Example: your health depends on a hierarchy of the health of your cells, organs, you as a whole, your family, your city, and the world you live in.
+    * https://link.springer.com/book/10.1007/978-3-642-17946-4
